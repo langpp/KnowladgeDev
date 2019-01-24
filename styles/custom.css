@@ -1,0 +1,29 @@
+.media-block{
+	display: none;
+}
+
+.media-hide{
+	display: block;
+}
+
+@media(max-width: 767px){
+	.media-block{
+		display: block !important;
+	}
+	.media-block{
+		display: none !important;
+	}
+	.img-usaha-terbaru{
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+.img-usaha-terbaru{
+	display: block;
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0px auto;
+    float: none;
+}
